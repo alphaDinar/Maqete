@@ -1,0 +1,86 @@
+.headBox{
+  background: #ffebec;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.headBox .semi{
+  width: 140px;
+  height: 140px;
+  top: -70px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  z-index: 100;
+}
+
+.headBox .slide{
+  height: calc(500px - 100px);
+  width: calc(100% - 100px);
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.headBox .slide img{
+  z-index: 10;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.headBox .slide .infoBox{
+  position: absolute;
+  z-index: 100;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 450px;
+  gap: 2rem;
+  background: rgba(0, 0, 0, 0.269);
+  padding: 20px;
+  border-radius: 20px;
+}
+.headBox .slide .infoBox article{
+  display: flex;
+  flex-direction: column;
+}
+
+.headBox .slide .infoBox article strong{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+
+.headBox .slide .infoBox a{
+  background: rgb(217, 142, 3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+.headBox .slide p{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.headBox .slide p legend{
+  display: block;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.headBox .slide p legend sub{
+  display: block;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+  width: 7px;
+}
+
+.headBox .slide p legend:nth-child(1){
+  padding: 10px;
+}

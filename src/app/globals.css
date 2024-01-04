@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family:  'Outfit', Arial, sans-serif;
+  font-family:  'Poppins', Arial, sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+
+}
